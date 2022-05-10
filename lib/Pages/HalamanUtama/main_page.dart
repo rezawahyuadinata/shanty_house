@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shanty_house/Pages/HalamanData/daftarprojek.dart';
 import 'package:shanty_house/Pages/HalamanUtama/chat_page.dart';
 import 'package:shanty_house/Pages/HalamanUtama/home_page.dart';
 import 'package:shanty_house/Pages/HalamanUtama/profile_page.dart';
@@ -118,7 +119,7 @@ class _MainPageState extends State<MainPage> {
           break;
 
         case 1:
-          return ChatPage();
+          return DaftarProjek();
           break;
 
         case 2:
